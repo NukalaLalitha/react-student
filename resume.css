@@ -1,0 +1,32 @@
+body {
+  background-color: #D0D3D4;
+  color: #800000;
+}
+
+.maindiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leftdiv {
+	background-color: #BB8FCE ;
+	width: 30%;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+}
+
+.rightdiv {
+	background-color: #9B59B6;
+	width: 55%;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+}
+
+img{
+	width: 70%;
+	height: 50%;
+	border-radius:15%;
+	margin: 4%;
+}

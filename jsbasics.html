@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+    <script type="text/javascript">
+    	function tom(){
+    		alert("hello world")
+    	}
+    </script> 
+    <script type="text/javascript" src="basics.js"></script>
+</head>
+<body>
+	<!--<h1>example for alert box</h1> -->
+	<form name="form1">
+		<!--<input type="button" onclick="tom()">clickme
+		<input type="button" onclick="jerry()">click for external -->
+		<input type="password" value="" name="pswd"><br><span id="check"></span>
+	</form>
+	<script type="text/javascript">
+		function password(){
+			var message;
+			if(document.form1.pswd.value.length>6){
+				message="excellent";
+			}
+			else{
+				message="poor";
+			}
+			document.getElementById("check").innerText =message;
+		}
+		/*var x=5;
+		var y=6;
+		var z=x+y;
+		document.write(z+"<br/>");
+		function calculate(){
+			alert(z);
+		}
+        calculate()
+        for(i=1;i<=6;i++){
+        	document.write(i+"<br/>");
+        }
+	</script>
+	<!--//document.write("hello world");
+	//alert("hello lalitha"); -->
+    
+</body>
+</html>
